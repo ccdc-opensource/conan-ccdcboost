@@ -1,6 +1,6 @@
 diff -u -r a/boost/smart_ptr/detail/shared_count.hpp b/boost/smart_ptr/detail/shared_count.hpp
---- a/boost/smart_ptr/detail/shared_count.hpp   2020-12-03 05:02:23.000000000 +0000
-+++ b/boost/smart_ptr/detail/shared_count.hpp   2021-04-15 22:29:28.000000000 +0100
+--- a/boost/smart_ptr/detail/shared_count.hpp	2020-12-03 05:02:23.000000000 +0000
++++ b/boost/smart_ptr/detail/shared_count.hpp	2021-04-15 22:29:28.000000000 +0100
 @@ -143,6 +143,9 @@
          , id_(shared_count_id)
  #endif
@@ -12,8 +12,8 @@ diff -u -r a/boost/smart_ptr/detail/shared_count.hpp b/boost/smart_ptr/detail/sh
  
          try
 diff -u -r a/boost/smart_ptr/shared_ptr.hpp b/boost/smart_ptr/shared_ptr.hpp
---- a/boost/smart_ptr/shared_ptr.hpp    2020-12-03 05:02:23.000000000 +0000
-+++ b/boost/smart_ptr/shared_ptr.hpp    2021-04-15 22:34:30.000000000 +0100
+--- a/boost/smart_ptr/shared_ptr.hpp	2020-12-03 05:02:23.000000000 +0000
++++ b/boost/smart_ptr/shared_ptr.hpp	2021-04-15 22:34:30.000000000 +0100
 @@ -34,6 +34,7 @@
  #include <typeinfo>             // for std::bad_cast
  #include <cstddef>              // for std::size_t
