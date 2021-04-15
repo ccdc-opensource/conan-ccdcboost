@@ -10,5 +10,5 @@ patches:
     - patch_file: "patches/boost_ccdc_1_73_0.patch"
       base_path: "source_subfolder"
   "1.75.0":
-    - patch_file: "patches/boost_ccdc_1_73_0.patch"
+    - patch_file: "patches/boost_ccdc_1_75_0.patch"
       base_path: "source_subfolder"
