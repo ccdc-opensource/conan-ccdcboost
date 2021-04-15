@@ -9,7 +9,7 @@ extends:
   template: third-party-library-all-platforms-from-local-recipe.yml@templates
   parameters:
     package: ccdcboost
-    package_version: 1.73.0
+    package_version: 1.75.0
     destination_repository: ccdc-3rdparty-conan
     # This is a header only library, build only one configuration and one platform
     build_types:
